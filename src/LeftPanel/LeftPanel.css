@@ -1,0 +1,217 @@
+.leftPanel_container {
+  width: 100%;
+  height: max-content;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.radiobtn_container {
+}
+
+.radiobtn_container > h4 {
+  margin-bottom: 10px;
+}
+
+.radiobtn_label {
+  margin-right: 10px;
+}
+
+.secondContainer_container {
+  margin-top: 40px;
+}
+
+.secondContainer_container h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+input[type="file"] {
+  display: none;
+}
+
+.secondContainer_btn_container {
+  display: flex;
+}
+
+.secondContainer_btn_container .button_file {
+  border: none;
+  height: 47px;
+  width: 70px;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  /* display: inline-block; */
+  background-color: #515151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondContainer_btn_container input {
+  height: 45px;
+  border: none;
+  width: 220px;
+  border-radius: 0 5px 5px 0;
+}
+
+.buttonOne {
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  background-color: rgb(0, 85, 130);
+  color: #fff;
+}
+
+.button {
+  width: 150px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  background-color: rgb(0, 85, 130);
+  color: #fff;
+  margin-right: 4px;
+}
+
+.buttonTow {
+}
+
+.buttonThree {
+  background-color: rgb(71, 74, 76);
+}
+
+.thirdContainer_container {
+}
+.thirdContainer_container h4 {
+  margin-bottom: 10px;
+}
+
+.thirdContainer_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.thirdContainer_form label {
+  /* font-size: 14px; */
+}
+
+.thirdContainer_form div {
+  margin-bottom: 15px;
+}
+
+.firstRange {
+  margin-top: 50px;
+}
+
+.firstRange_form {
+  display: flex;
+}
+.firstRange_form input {
+  width: 70px;
+  margin-right: 10px;
+}
+.firstRange_form label {
+  font-size: 16px;
+}
+
+/* double range */
+
+.range-slider {
+  height: 5px;
+  position: relative;
+  background-color: #e1e9f6;
+  border-radius: 2px;
+}
+.range-selected {
+  height: 100%;
+  left: 30%;
+  right: 30%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #1b53c0;
+}
+
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -7px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.range-input input::-webkit-slider-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid #1b53c0;
+  background-color: #fff;
+  pointer-events: auto;
+  -webkit-appearance: none;
+}
+.range-input input::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 3px solid #1b53c0;
+  background-color: #fff;
+  pointer-events: auto;
+  -moz-appearance: none;
+}
+
+.range-price {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.range-price label {
+  margin-right: 5px;
+}
+.range-price input {
+  width: 40px;
+  padding: 5px;
+}
+.range-price input:first-of-type {
+  margin-right: 15px;
+}
+.range {
+  width: 100%;
+}
+/* double range end */
+
+.doublerange_container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.doubleRangeSlider {
+  width: 150px;
+  margin-right: 2px;
+  margin-top: 20px;
+}
+
+.doubleRangeSlider h4 {
+  font-size: 14px;
+}
+
+.singleRangeSlider_container {
+  width: 100px;
+}
+.singleRangeSlider_container h4 {
+  font-size: 12px;
+}
+
+.singleRangeSlider_range {
+  width: 100px;
+  height: 10px;
+}

@@ -1,0 +1,44 @@
+.navbar_container {
+  height: max-content;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar_first_container img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.navbar_first_container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_second_container {
+  display: flex;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.navbar_button {
+  margin-right: 10px;
+}
+
+.navbar_second_container a,
+.navbar_second_container a:focus {
+  text-decoration: none;
+  width: 250px;
+  height: 10px;
+  border: 10px white;
+  display: block;
+  color: #fff;
+}
+
+.navbar_second_container a:focus {
+  color: green;
+}
